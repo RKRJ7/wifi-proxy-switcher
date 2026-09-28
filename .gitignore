@@ -1,0 +1,46 @@
+# ─── Swift Package Manager ────────────────────────────────────────────────────
+.build/
+.swiftpm/
+*.o
+*.d
+
+# ─── Xcode ────────────────────────────────────────────────────────────────────
+xcuserdata/
+*.xcworkspace/xcuserdata/
+*.xcodeproj/
+DerivedData/
+*.moved-aside
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+
+# ─── Build output / app bundle ────────────────────────────────────────────────
+# The compiled .app is reproducible from source — don't commit it
+WiFiProxySwitcher.app/
+
+# ─── macOS system files ───────────────────────────────────────────────────────
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+Icon?
+ehthumbs.db
+Thumbs.db
+
+# ─── Editor / IDE ─────────────────────────────────────────────────────────────
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ─── Environment / secrets ────────────────────────────────────────────────────
+.env
+.env.*
+*.pem
