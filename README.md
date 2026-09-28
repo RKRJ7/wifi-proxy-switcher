@@ -47,7 +47,7 @@ xcode-select --install
 ```bash
 # 1. Clone the repo
 git clone https://github.com/RKRJ7/wifi-proxy-switcher.git
-cd proxy-toggle
+cd wifi-proxy-switcher
 
 # 2. Build (debug — fast, for testing)
 ./build.sh
@@ -155,7 +155,7 @@ Profiles are stored in `UserDefaults` under key `WiFiProxyProfiles_v1` as a JSON
 ## 🗂 Project Structure
 
 ```
-proxy-toggle/
+wifi-proxy-switcher/
 ├── Package.swift                  Swift Package Manager manifest
 ├── build.sh                       Build + bundle script
 ├── Resources/
