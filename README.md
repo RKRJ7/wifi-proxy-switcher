@@ -46,7 +46,7 @@ xcode-select --install
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/<your-username>/proxy-toggle.git
+git clone https://github.com/RKRJ7/wifi-proxy-switcher.git
 cd proxy-toggle
 
 # 2. Build (debug — fast, for testing)
